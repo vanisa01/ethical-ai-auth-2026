@@ -1,0 +1,26 @@
+<svg width="720" height="560" viewBox="0 0 720 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="560" rx="36" fill="#F7F1E7"/>
+  <rect x="68" y="162" width="164" height="156" rx="28" fill="#D86A4C"/>
+  <rect x="278" y="138" width="164" height="204" rx="28" fill="#233852"/>
+  <rect x="488" y="162" width="164" height="156" rx="28" fill="#D4A23A"/>
+  <path d="M232 240H278" stroke="#233852" stroke-width="12" stroke-linecap="round"/>
+  <path d="M442 240H488" stroke="#233852" stroke-width="12" stroke-linecap="round"/>
+  <path d="M258 240L278 226V254L258 240Z" fill="#233852"/>
+  <path d="M468 240L488 226V254L468 240Z" fill="#233852"/>
+  <text x="110" y="214" fill="#FFF9F2" font-family="Arial" font-size="25" font-weight="700">USERS</text>
+  <text x="301" y="196" fill="#FFF9F2" font-family="Arial" font-size="24" font-weight="700">PLATFORM</text>
+  <text x="542" y="214" fill="#233852" font-family="Arial" font-size="25" font-weight="700">ADS</text>
+  <text x="109" y="254" fill="#FFF9F2" font-family="Arial" font-size="17">attention</text>
+  <text x="109" y="281" fill="#FFF9F2" font-family="Arial" font-size="17">emotion</text>
+  <text x="109" y="308" fill="#FFF9F2" font-family="Arial" font-size="17">behavior</text>
+  <text x="319" y="238" fill="#FFF9F2" font-family="Arial" font-size="17">capture</text>
+  <text x="319" y="267" fill="#FFF9F2" font-family="Arial" font-size="17">rank</text>
+  <text x="319" y="296" fill="#FFF9F2" font-family="Arial" font-size="17">optimize</text>
+  <text x="531" y="254" fill="#233852" font-family="Arial" font-size="17">revenue</text>
+  <text x="531" y="281" fill="#233852" font-family="Arial" font-size="17">targeting</text>
+  <text x="531" y="308" fill="#233852" font-family="Arial" font-size="17">growth</text>
+  <rect x="110" y="388" width="500" height="100" rx="24" fill="#FFFFFF" stroke="#233852" stroke-width="4"/>
+  <text x="146" y="426" fill="#233852" font-family="Arial" font-size="22" font-weight="700">Attention becomes the product</text>
+  <text x="146" y="458" fill="#51606F" font-family="Arial" font-size="17">The system gets rewarded for keeping people engaged,</text>
+  <text x="146" y="481" fill="#51606F" font-family="Arial" font-size="17">not necessarily informed, calm, or well.</text>
+</svg>

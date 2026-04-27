@@ -1,0 +1,23 @@
+<svg width="720" height="560" viewBox="0 0 720 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="560" rx="36" fill="#F6EFE3"/>
+  <rect x="88" y="86" width="544" height="82" rx="24" fill="#FFFFFF" stroke="#233852" stroke-width="4"/>
+  <rect x="88" y="214" width="544" height="82" rx="24" fill="#FFFFFF" stroke="#233852" stroke-width="4"/>
+  <rect x="88" y="342" width="544" height="82" rx="24" fill="#FFFFFF" stroke="#233852" stroke-width="4"/>
+  <circle cx="132" cy="127" r="20" fill="#D86A4C"/>
+  <circle cx="132" cy="255" r="20" fill="#0D7A76"/>
+  <circle cx="132" cy="383" r="20" fill="#D4A23A"/>
+  <text x="168" y="121" fill="#233852" font-family="Arial" font-size="22" font-weight="700">Product choices</text>
+  <text x="168" y="146" fill="#51606F" font-family="Arial" font-size="17">notifications, ranking, defaults, data collection</text>
+  <text x="168" y="249" fill="#233852" font-family="Arial" font-size="22" font-weight="700">Repeated habits</text>
+  <text x="168" y="274" fill="#51606F" font-family="Arial" font-size="17">checking, outrage, calm reflection, self-control</text>
+  <text x="168" y="377" fill="#233852" font-family="Arial" font-size="22" font-weight="700">Human outcome</text>
+  <text x="168" y="402" fill="#51606F" font-family="Arial" font-size="17">distraction or flourishing, compulsion or autonomy</text>
+  <path d="M360 168V214" stroke="#233852" stroke-width="8" stroke-linecap="round"/>
+  <path d="M360 296V342" stroke="#233852" stroke-width="8" stroke-linecap="round"/>
+  <path d="M346 196L360 214L374 196" stroke="#233852" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M346 324L360 342L374 324" stroke="#233852" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="442" y="24" width="220" height="42" rx="18" fill="#233852"/>
+  <text x="470" y="50" fill="#FFF9F2" font-family="Arial" font-size="18" font-weight="700">Aristotle's question</text>
+  <rect x="88" y="466" width="544" height="54" rx="20" fill="#233852"/>
+  <text x="114" y="500" fill="#FFF9F2" font-family="Arial" font-size="20" font-weight="700">What kind of person is this system training me to become?</text>
+</svg>
