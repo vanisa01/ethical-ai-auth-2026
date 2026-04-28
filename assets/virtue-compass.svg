@@ -18,6 +18,7 @@
   <path d="M346 324L360 342L374 324" stroke="#233852" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="442" y="24" width="220" height="42" rx="18" fill="#233852"/>
   <text x="470" y="50" fill="#FFF9F2" font-family="Arial" font-size="18" font-weight="700">Aristotle's question</text>
-  <rect x="88" y="466" width="544" height="54" rx="20" fill="#233852"/>
-  <text x="114" y="500" fill="#FFF9F2" font-family="Arial" font-size="20" font-weight="700">What kind of person is this system training me to become?</text>
+  <rect x="88" y="458" width="544" height="68" rx="20" fill="#233852"/>
+  <text x="360" y="486" fill="#FFF9F2" font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">What kind of person is this system</text>
+  <text x="360" y="510" fill="#FFF9F2" font-family="Arial" font-size="18" font-weight="700" text-anchor="middle">training me to become?</text>
 </svg>
