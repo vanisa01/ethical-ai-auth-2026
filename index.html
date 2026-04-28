@@ -15,7 +15,7 @@
         </div>
         <div class="deck-controls">
           <button id="prevButton" type="button" aria-label="Previous slide">←</button>
-          <div class="counter"><span id="currentSlide">1</span><span class="slash">/</span><span id="totalSlides">12</span></div>
+          <div class="counter"><span id="currentSlide">1</span><span class="slash">/</span><span id="totalSlides">8</span></div>
           <button id="nextButton" type="button" aria-label="Next slide">→</button>
         </div>
       </header>
@@ -42,6 +42,26 @@
                   <li>Since 2021 at Pfizer across data engineering, data architecture, and Applied AI Engineering</li>
                   <li>Currently building an SDK for AI application development</li>
                 </ul>
+                <div class="qr-codes-container">
+                  <div class="qr-code-item">
+                    <a href="https://substack.com/@anastasiosvanis" target="_blank" rel="noreferrer">
+                      <img src="assets/qr-substack.png" alt="Substack QR Code" class="qr-code-image" />
+                      <span class="qr-label">Substack</span>
+                    </a>
+                  </div>
+                  <div class="qr-code-item">
+                    <a href="https://www.linkedin.com/in/anastasiosmvanis/" target="_blank" rel="noreferrer">
+                      <img src="assets/qr-linkedin.png" alt="LinkedIn QR Code" class="qr-code-image" />
+                      <span class="qr-label">LinkedIn</span>
+                    </a>
+                  </div>
+                  <div class="qr-code-item">
+                    <a href="https://github.com/vanisa01/ethical-ai-auth-2026" target="_blank" rel="noreferrer">
+                      <img src="assets/qr-github.png" alt="GitHub QR Code" class="qr-code-image" />
+                      <span class="qr-label">GitHub</span>
+                    </a>
+                  </div>
+                </div>
               </div>
               <div class="quote-box">
                 <p class="quote-label">Opening question</p>
@@ -55,8 +75,69 @@
                 <li><span class="meta-icon">◌</span> Includes references and ethical vs non-ethical code</li>
               </ul>
             </div>
-            <div class="visual-panel art-panel">
-              <img src="assets/philosophy-circuit.svg" alt="Illustration combining Greek columns with digital circuits" />
+            <div class="visual-panel tech-panel">
+              <div class="tech-stack-container">
+                <div class="tech-group">
+                  <p class="tech-group-title">Google Cloud Support</p>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="Cloud SQL">☁️ Cloud SQL</span>
+                    <span class="tech-logo" title="Cloud Spanner">🔄 Cloud Spanner</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="App Engine">🚀 App Engine</span>
+                    <span class="tech-logo" title="Cloud Run">🏃 Cloud Run</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="Cloud Build">🔨 Cloud Build</span>
+                  </div>
+                </div>
+                <div class="tech-divider"></div>
+                <div class="tech-group">
+                  <p class="tech-group-title">Warply</p>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="AWS RDS">🗄️ RDS</span>
+                    <span class="tech-logo" title="AWS EC2">🖥️ EC2</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="Cassandra">📊 Cassandra</span>
+                    <span class="tech-logo" title="PostgreSQL">🐘 PostgreSQL</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="Python">🐍 Python</span>
+                    <span class="tech-logo" title="Tornado API">⚡ Tornado</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="Flask API">🍶 Flask</span>
+                    <span class="tech-logo" title="Kafka">📨 Kafka</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="Redis">⚙️ Redis</span>
+                  </div>
+                </div>
+                <div class="tech-divider"></div>
+                <div class="tech-group">
+                  <p class="tech-group-title">Pfizer</p>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="Python">🐍 Python</span>
+                    <span class="tech-logo" title="Angular">🅰️ Angular</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="React">⚛️ React</span>
+                    <span class="tech-logo" title="Redis">⚙️ Redis</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="Kafka">📨 Kafka</span>
+                    <span class="tech-logo" title="Databricks">🧱 Databricks</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="AWS">🟠 AWS</span>
+                    <span class="tech-logo" title="Azure">💙 Azure</span>
+                  </div>
+                  <div class="tech-logos">
+                    <span class="tech-logo" title="GitHub">🐙 GitHub</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <footer class="slide-footer">
@@ -65,126 +146,32 @@
           </footer>
         </section>
 
-        <section class="slide" data-title="Why Now">
-          <div class="slide-grid two-column">
-            <div class="copy">
-              <p class="slide-kicker">Why this matters now</p>
-              <h2>Code now operates at social scale</h2>
-              <ul class="accent-list">
-                <li>Web systems shape attention, beliefs, relationships, and civic life.</li>
-                <li>AI personalizes what people see, believe, buy, and trust.</li>
-                <li>Innovation now moves faster than society can absorb its consequences.</li>
-              </ul>
-              <p class="body-text">
-                In older software eras, bugs mostly blocked tasks. Today, product decisions can affect mental health,
-                misinformation, polarization, and the quality of public discourse.
-              </p>
-            </div>
-            <aside class="stat-stack">
-              <div class="stat-card coral">
-                <span class="stat-number">Scale</span>
-                <p>One ranking decision can shape millions of daily impressions.</p>
-              </div>
-              <div class="stat-card teal">
-                <span class="stat-number">Speed</span>
-                <p>Product iteration is continuous while ethical reflection is often delayed.</p>
-              </div>
-              <div class="stat-card gold">
-                <span class="stat-number">Risk</span>
-                <p>Optimization without ethics becomes social engineering by default.</p>
-              </div>
-            </aside>
-          </div>
-          <footer class="slide-footer">
-            <span>References</span>
-            <p>Baumeister and Vohs, 2018. Reuters Institute Digital News Report, 2023.</p>
-          </footer>
-        </section>
-
-        <section class="slide" data-title="Attention Economy">
-          <div class="slide-grid two-column media-slide">
-            <div class="visual-panel image-card">
-              <img src="assets/attention-economy.svg" alt="Diagram of users, platforms, and advertisers exchanging attention" />
-            </div>
-            <div class="copy">
-              <p class="slide-kicker">Social media</p>
-              <h2>What platforms actually optimize</h2>
-              <div class="pill-row">
-                <span class="pill">Infinite scroll</span>
-                <span class="pill">Streaks</span>
-                <span class="pill">Push alerts</span>
-                <span class="pill">Variable rewards</span>
-              </div>
-              <p class="body-text">
-                Most large platforms reward attention capture because advertising business models reward time-on-platform.
-                The result is a conflict: what keeps users engaged is not always what helps them think clearly or live well.
-              </p>
-              <div class="callout warning">
-                A feed ranking algorithm may maximize clicks by prioritizing emotionally intense content, even when that increases anxiety or misinformation.
-              </div>
+        <section class="slide" data-title="The Problem">
+          <div class="slide-grid single-column">
+            <p class="slide-kicker">Why this matters</p>
+            <h2>Code shapes attention, behavior, and thought</h2>
+            <div class="problem-grid">
+              <article>
+                <h3>Scale & Speed</h3>
+                <p>Web systems now shape beliefs, relationships, and civic life. One ranking decision affects millions. Innovation moves faster than ethical reflection.</p>
+              </article>
+              <article>
+                <h3>Attention Economy</h3>
+                <p>Platforms optimize for engagement through infinite scroll, streaks, and variable rewards. What keeps users engaged is not always what helps them think clearly.</p>
+              </article>
+              <article>
+                <h3>Behavior Engineering</h3>
+                <p>Prediction systems learn from behavior, then optimization systems shape what users do next. Without consent, design patterns influence habit and public discourse.</p>
+              </article>
+              <article>
+                <h3>Fragmented Thinking</h3>
+                <p>Constant interruption loops increase mental switching costs. Shallow engagement replaces deep focus. Developers lose reasoning quality, creativity, and memory depth.</p>
+              </article>
             </div>
           </div>
           <footer class="slide-footer">
             <span>References</span>
-            <p>Eyal, 2014. Harris TED Talk, 2016. Alter, 2017.</p>
-          </footer>
-        </section>
-
-        <section class="slide" data-title="Social Dilemma">
-          <div class="slide-grid two-column">
-            <div class="copy">
-              <p class="slide-kicker">The Social Dilemma</p>
-              <h2>If you are not paying, you are also being trained</h2>
-              <ol class="number-list">
-                <li>Prediction systems learn from behavior.</li>
-                <li>Optimization systems shape what users do next.</li>
-                <li>Over time, design patterns can influence habit, identity, and public discourse.</li>
-              </ol>
-              <p class="body-text">
-                The ethical problem is not only harmful content. It is behavior engineering at scale, often without meaningful consent.
-              </p>
-            </div>
-            <div class="quote-column">
-              <div class="quote-box large">
-                <p class="quote-label">Core claim</p>
-                <p>
-                  Platforms do not only predict behavior. They can steer behavior.
-                </p>
-              </div>
-              <div class="mini-ref">Documentary, popular criticism, and platform testimony all converge on the same concern: optimization can become manipulation.</div>
-            </div>
-          </div>
-          <footer class="slide-footer">
-            <span>References</span>
-            <p>Orlowski, 2020. Lanier, 2018. Williams, 2018.</p>
-          </footer>
-        </section>
-
-        <section class="slide" data-title="Scattered Thinking">
-          <div class="slide-grid two-column">
-            <div class="copy">
-              <p class="slide-kicker">Cognition</p>
-              <h2>How systems fragment attention</h2>
-              <ul class="accent-list">
-                <li>Constant interruption loops increase mental switching costs.</li>
-                <li>Shallow engagement replaces deep focus and reflective judgment.</li>
-                <li>Students and developers lose reasoning quality, creativity, and memory depth.</li>
-              </ul>
-            </div>
-            <div class="focus-visual">
-              <div class="focus-ring focus-ring-1"></div>
-              <div class="focus-ring focus-ring-2"></div>
-              <div class="focus-core">
-                <span>Deep work</span>
-              </div>
-              <div class="distraction-tag tag-a">alerts</div>
-              <div class="distraction-tag tag-b">feeds</div>
-              <div class="distraction-tag tag-c">switching</div>
-            </div>
-          </div>
-          <footer class="slide-footer">
-            <span>References</span>
-            <p>Newport, 2016. Carr, 2010. Ophir, Nass, and Wagner, 2009.</p>
+            <p>Zuboff, 2019. Eyal, 2014. Harris TED Talk, 2016. Newport, 2016. Orlowski, 2020.</p>
           </footer>
         </section>
 
@@ -195,7 +182,7 @@
             </div>
             <div class="copy aristotle-copy">
               <p class="slide-kicker">A philosophical lens</p>
-              <h2>Aristotle's question for modern platforms</h2>
+              <h2>A question for modern platforms</h2>
               <p class="body-text">
                 Aristotle helps us ask one practical question: what kind of habits are our systems training in people?
               </p>
@@ -225,99 +212,64 @@
           </footer>
         </section>
 
-        <section class="slide" data-title="Ethical Programming">
-          <div class="slide-grid two-column">
-            <div class="copy">
-              <p class="slide-kicker">Ethical programming</p>
-              <h2>Not just legality, but design responsibility</h2>
-              <ul class="check-grid">
-                <li>Respect user autonomy</li>
-                <li>Minimize foreseeable harm</li>
-                <li>Make tradeoffs explicit</li>
-                <li>Protect privacy by default</li>
-                <li>Preserve fairness and dignity</li>
-                <li>Keep teams accountable</li>
-              </ul>
-            </div>
-            <div class="ethics-card-stack">
-              <article class="ethics-card">
-                <span class="ethics-icon">◍</span>
-                <h3>Ask who benefits</h3>
-                <p>Every product decision creates winners, losers, and externalized costs.</p>
-              </article>
-              <article class="ethics-card">
-                <span class="ethics-icon">◐</span>
-                <h3>Ask who is pressured</h3>
-                <p>Behavioral nudges become unethical when they exploit vulnerability.</p>
-              </article>
-              <article class="ethics-card">
-                <span class="ethics-icon">◎</span>
-                <h3>Ask what becomes normal</h3>
-                <p>Repeated defaults become culture, and culture becomes infrastructure.</p>
-              </article>
-            </div>
-          </div>
-          <footer class="slide-footer">
-            <span>References</span>
-            <p>ACM Code of Ethics, 2018. Floridi and Taddeo, 2016. Vallor, 2016.</p>
-          </footer>
-        </section>
-
-        <section class="slide" data-title="Ethical AI">
-          <div class="slide-grid two-column">
-            <div class="copy">
-              <p class="slide-kicker">Ethical AI</p>
-              <h2>Where AI systems go wrong</h2>
-              <div class="risk-grid">
-                <article class="risk-card"><h3>Bias</h3><p>Models replicate unequal data and unequal history.</p></article>
-                <article class="risk-card"><h3>Opacity</h3><p>Users cannot contest decisions they cannot understand.</p></article>
-                <article class="risk-card"><h3>Manipulation</h3><p>Personalization can target weakness rather than support goals.</p></article>
-                <article class="risk-card"><h3>Surveillance</h3><p>Data collection expands far beyond legitimate need.</p></article>
-              </div>
-            </div>
-            <div class="callout-panel">
-              <div class="callout neutral">
-                AI systems inherit both the strengths and the prejudices of the data, institutions, and incentives around them.
-              </div>
-              <div class="callout strong">
-                Ethical AI requires explanation, contestability, human oversight, and limits on automated power.
-              </div>
-            </div>
-          </div>
-          <footer class="slide-footer">
-            <span>References</span>
-            <p>Buolamwini and Gebru, 2018. Selbst and Barocas, 2019. Mittelstadt et al., 2016.</p>
-          </footer>
-        </section>
-
-        <section class="slide" data-title="Decision Check">
+        <section class="slide" data-title="Building Ethical Systems">
           <div class="slide-grid single-column">
-            <p class="slide-kicker">Practical framework</p>
-            <h2>The five-question ethical check</h2>
-            <div class="question-strip">
-              <div class="question-card"><span>1</span><p>Who benefits?</p></div>
-              <div class="question-card"><span>2</span><p>Who might be harmed?</p></div>
-              <div class="question-card"><span>3</span><p>What behavior are we incentivizing?</p></div>
-              <div class="question-card"><span>4</span><p>Can users understand and control what happens?</p></div>
-              <div class="question-card"><span>5</span><p>Could we publicly defend this design tomorrow?</p></div>
+            <p class="slide-kicker">Design & Development</p>
+            <h2>Not just legality, but responsibility</h2>
+            <div class="ethics-principles">
+              <div class="principle-pair">
+                <article>
+                  <h3>Ethical Programming</h3>
+                  <ul>
+                    <li>Respect user autonomy</li>
+                    <li>Minimize foreseeable harm</li>
+                    <li>Make tradeoffs explicit</li>
+                    <li>Protect privacy by default</li>
+                    <li>Preserve fairness and dignity</li>
+                  </ul>
+                </article>
+                <article>
+                  <h3>Ethical AI</h3>
+                  <ul>
+                    <li>Bias: models replicate unequal data</li>
+                    <li>Opacity: users must understand decisions</li>
+                    <li>Manipulation: avoid targeting weakness</li>
+                    <li>Surveillance: collect only what's needed</li>
+                    <li>Governance: human oversight always</li>
+                  </ul>
+                </article>
+              </div>
             </div>
-            <p class="body-text centered narrow">
-              This can be used in sprint planning, PR review, design critique, or launch readiness.
-            </p>
+            <div class="callout neutral wide">
+              Every product decision creates winners, losers, and externalized costs. Repeated defaults become culture, and culture becomes infrastructure.
+            </div>
           </div>
           <footer class="slide-footer">
             <span>References</span>
-            <p>Gillespie, 2018. Stark and Hoey, 2021.</p>
+            <p>ACM Code of Ethics, 2018. Floridi and Taddeo, 2016. Buolamwini and Gebru, 2018.</p>
           </footer>
         </section>
 
-        <section class="slide code-slide" data-title="Code Example">
+        <section class="slide code-slide" data-title="Framework & Code">
           <div class="slide-grid single-column">
-            <p class="slide-kicker">Coding example</p>
-            <h2>Non-ethical code vs ethical code</h2>
-            <div class="code-compare">
+            <p class="slide-kicker">Practical approach</p>
+            <h2>Ethical check & code example</h2>
+            <div class="framework-single">
+              <article class="framework-box">
+                <h3>Five-question ethical check</h3>
+                <ol>
+                  <li>Who benefits?</li>
+                  <li>Who might be harmed?</li>
+                  <li>What behavior are we incentivizing?</li>
+                  <li>Can users understand and control?</li>
+                  <li>Could we publicly defend this?</li>
+                </ol>
+                <p><em>Use in: sprint planning, PR review, design critique, launch readiness.</em></p>
+              </article>
+            </div>
+            <div class="code-compare-expanded">
               <article class="code-card bad">
-                <div class="code-label">Dark-pattern notification logic</div>
+                <div class="code-label">❌ Unethical: Dark-pattern notifications</div>
                 <pre><code>def send_notification(user_id, message):
     notification = {
         "priority": "high",
@@ -327,10 +279,10 @@
     send_time = calculate_when_user_most_vulnerable()
     schedule_notification(notification, send_time)
     track_engagement_for_manipulation(user_id)</code></pre>
-                <p>Overrides user settings, targets weak moments, tracks behavior for manipulation.</p>
+                <p>Overrides user settings, targets weakness, exploits vulnerability for engagement.</p>
               </article>
               <article class="code-card good">
-                <div class="code-label">User-respecting notification logic</div>
+                <div class="code-label">✓ Ethical: Respects user consent</div>
                 <pre><code>def send_notification(user_id, message):
     prefs = get_user_notification_preferences(user_id)
     if not prefs["notifications_enabled"]:
@@ -343,7 +295,7 @@
               </article>
             </div>
             <div class="callout neutral wide">
-              Ethical code is often more explicit because it encodes values like consent, transparency, and user control.
+              Ethical code is explicit because it encodes values like consent, transparency, and user control.
             </div>
           </div>
           <footer class="slide-footer">
@@ -353,28 +305,45 @@
         </section>
 
         <section class="slide" data-title="What To Do">
-          <div class="slide-grid two-column">
-            <div class="copy">
-              <p class="slide-kicker">For web programming students</p>
-              <h2>What we can do now</h2>
-              <ul class="accent-list">
-                <li>Use privacy-preserving defaults.</li>
-                <li>Add friction to risky actions and stopping cues to endless flows.</li>
-                <li>Explain recommendation logic in user-friendly language.</li>
-                <li>Track harm signals, not only growth metrics.</li>
-                <li>Add an ethics section to project readmes and code reviews.</li>
-              </ul>
-            </div>
-            <div class="action-board">
-              <div class="board-item"><span>01</span><p>Consent before collection</p></div>
-              <div class="board-item"><span>02</span><p>Explain why content appears</p></div>
-              <div class="board-item"><span>03</span><p>Design for stopping, not compulsion</p></div>
-              <div class="board-item"><span>04</span><p>Test bias and abuse cases</p></div>
+          <div class="slide-grid single-column">
+            <p class="slide-kicker">For web programming students</p>
+            <h2>What we can do now</h2>
+            <div class="actionable-practices">
+              <article>
+                <h3>Design practices</h3>
+                <ul>
+                  <li>Use privacy-preserving defaults</li>
+                  <li>Add friction to risky actions and stopping cues to endless flows</li>
+                  <li>Explain recommendation logic in user-friendly language</li>
+                  <li>Track harm signals, not only growth metrics</li>
+                </ul>
+              </article>
+              <article>
+                <h3>Ethical AI Platforms (from industry)</h3>
+                <ul>
+                  <li><strong>Microsoft</strong> Responsible AI Toolbox - fairness, interpretability, error analysis</li>
+                  <li><strong>IBM</strong> watsonx.governance - guardrails for Gen AI and foundation models</li>
+                  <li><strong>Google</strong> Responsible Generative AI Toolkit - safety, transparency, accountability</li>
+                  <li><strong>Amazon</strong> SageMaker Clarify - bias detection, explainability</li>
+                  <li><strong>Salesforce</strong> Einstein Trust Layer - data and compliance guardrails</li>
+                  <li><strong>Credo AI</strong> - governance platform aligned to regulations (EU AI Act, NIST AI RMF)</li>
+                </ul>
+              </article>
+              <article>
+                <h3>Custom solutions</h3>
+                <p>Build domain-specific tools that fill gaps and provide autonomy. Proprietary implementations allow:</p>
+                <ul>
+                  <li>Fine-tuned governance for your specific context</li>
+                  <li>Ownership of ethical frameworks and decisions</li>
+                  <li>Direct control over compliance and audit trails</li>
+                  <li>Integration with existing systems without vendor lock-in</li>
+                </ul>
+              </article>
             </div>
           </div>
           <footer class="slide-footer">
             <span>References</span>
-            <p>Thaler and Sunstein, 2008. Reijers and Coeckelbergh, 2020. Google Responsible AI Practices.</p>
+            <p>AI Magazine Top 10 Ethical AI Tools. Thaler and Sunstein, 2008. Google Responsible AI Practices.</p>
           </footer>
         </section>
 
@@ -426,6 +395,60 @@
           <footer class="slide-footer">
             <span>Closing thought</span>
             <p>The future of the web depends on whether we optimize for extraction or for human flourishing.</p>
+          </footer>
+        </section>
+
+        <section class="slide closing-slide" data-title="Thank You">
+          <div class="closing-layout">
+            <div class="closing-content">
+              <p class="slide-kicker">Closing thoughts</p>
+              <h2>Build systems worth being proud of</h2>
+              <div class="closing-thoughts">
+                <p>
+                  Every line of code is a small decision about the world we want to live in. The question is not whether
+                  your systems have values — they always do. The question is whether those values are chosen deliberately.
+                </p>
+                <blockquote class="closing-quote">
+                  The future of the web depends on whether we optimize for extraction or for human flourishing.
+                </blockquote>
+                <p>
+                  You are entering a field with enormous leverage. Use it to build things that respect the people who
+                  depend on them. Ask the hard questions early. Document your trade-offs. And never stop treating ethics
+                  as a first-class concern — not an afterthought.
+                </p>
+              </div>
+              <div class="closing-cta">
+                <p class="closing-thank-you">Thank you</p>
+                <p class="closing-connect-label">Let's stay in touch</p>
+                <div class="closing-links">
+                  <a href="https://substack.com/@anastasiosvanis" target="_blank" rel="noreferrer" class="closing-link substack-link">
+                    <img src="assets/qr-substack.png" alt="Substack QR Code" class="closing-link-qr" />
+                    <span class="closing-link-text">
+                      <strong>Substack</strong>
+                      <small>substack.com/@anastasiosvanis</small>
+                    </span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/anastasiosmvanis/" target="_blank" rel="noreferrer" class="closing-link linkedin-link">
+                    <img src="assets/qr-linkedin.png" alt="LinkedIn QR Code" class="closing-link-qr" />
+                    <span class="closing-link-text">
+                      <strong>LinkedIn</strong>
+                      <small>linkedin.com/in/anastasiosmvanis</small>
+                    </span>
+                  </a>
+                  <a href="https://github.com/vanisa01/ethical-ai-auth-2026" target="_blank" rel="noreferrer" class="closing-link github-link">
+                    <img src="assets/qr-github.png" alt="GitHub QR Code" class="closing-link-qr" />
+                    <span class="closing-link-text">
+                      <strong>GitHub</strong>
+                      <small>github.com/vanisa01/ethical-ai-auth-2026</small>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="slide-footer">
+            <span>Aristotle University of Thessaloniki · April 2026</span>
+            <p>Anastasios Vanis — Ethical Programming and Ethical AI</p>
           </footer>
         </section>
       </main>
